@@ -2,4 +2,5 @@
 title: "About"
 ---
 
-Tanish Thaker
+My name is **Tanish Thaker**, I am currently a student at Texas A&M University.
+[Kane's Free Data Science Bootcamp](https://bootcamp.davidkane.info)

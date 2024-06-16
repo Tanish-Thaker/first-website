@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Tanish Thaker">
 
-<title>A New Website, second edition - About</title>
+<title>A New Website, second edition - source-2</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -92,8 +93,23 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-sources" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Sources</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-sources">    
+        <li>
+    <a class="dropdown-item" href="./source-1.html">
+ <span class="dropdown-text">Source 1</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./source-2.html">
+ <span class="dropdown-text">Source 2</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" aria-current="page"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -115,13 +131,19 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">source-2</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Tanish Thaker </p>
+          </div>
+  </div>
     
   
     
@@ -132,7 +154,6 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>My name is <strong>Tanish Thaker</strong>, I am currently a student at Texas A&amp;M University. <a href="https://bootcamp.davidkane.info">Kane’s Free Data Science Bootcamp</a></p>
 
 
 
@@ -218,7 +239,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/tanish-thaker\.quarto\.pub\/a-new-website");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
