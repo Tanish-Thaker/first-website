@@ -153,7 +153,7 @@ ul.task-list li input[type="checkbox"] {
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="index_files/figure-html/diamonds-plot-1.png" class="img-fluid figure-img" width="672"></p>
+<p><img src="size_v_weight.png" class="img-fluid figure-img"></p>
 </figure>
 </div>
 </div>
@@ -243,7 +243,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/tanish-thaker\.quarto\.pub\/a-new-website");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
