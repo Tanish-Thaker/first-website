@@ -1,1 +1,1 @@
-Sitemap: https://e49722d6-cb9a-4f32-beb4-eede4fd372a9.netlify.app/sitemap.xml
+Sitemap: https://tanish-thaker.quarto.pub/a-new-website/sitemap.xml
